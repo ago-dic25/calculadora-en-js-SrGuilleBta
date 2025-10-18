@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora con Log</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora</h1>
+        
+        <div class="calculator">
+            <div class="input-group">
+                <label for="numero1">Primer número:</label>
+                <input type="text" id="numero1" placeholder="Ingresa un número" inputmode="decimal">
+            </div>
+            
+            <div class="input-group">
+                <label for="numero2">Segundo número:</label>
+                <input type="text" id="numero2" placeholder="Ingresa un número" inputmode="decimal">
+            </div>
+            
+            <div class="buttons">
+                <button id="sumar">Sumar</button>
+                <button id="restar">Restar</button>
+                <button id="multiplicar">Multiplicar</button>
+                <button id="dividir">Dividir</button>
+            </div>
+            
+            <div id="resultado" class="resultado">
+                <p>Resultado aparecerá aquí</p>
+            </div>
+            
+            <div class="log-container">
+                <h2>Log de Operaciones</h2>
+                <div id="log" class="log">
+                    <p>Aquí se mostrarán las operaciones anteriores</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
